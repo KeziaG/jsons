@@ -1,0 +1,98 @@
+[
+    {
+      "id": "bid-optimizer",
+      "agentUrl": "",
+      "widgetUrl": "/_next/static/chunks/remoteEntry.js",
+      "name": "Bid Optimizer",
+      "description": "BidOptimizer",
+      "appSlug": "bidoptimizer",
+      "width": 960,
+      "height": 540,
+      "defaultWidth": 300,
+      "defaultHeight": 300,
+      "display_name": "BidOptimizer",
+      "preview_url": "/icons/bid-optimizer.svg",
+      "inputHandlers": [
+        {
+          "id": "bid-optimizer-input  ",
+          "name": "Bid Optimizer Input",
+          "description": "Bid Optimizer Input",
+          "type": [
+            "*"
+          ]
+        }
+      ],
+      "outputHandlers": [
+        {
+          "id": "bid-optimizer-output1",
+          "name": "Bid Optimizer Output",
+          "description": "Bid Optimizer Output",
+          "type": "Object"
+        }
+      ]
+    },
+    {
+      "id": "demand-predictor",
+      "agentUrl": "",
+      "widgetUrl": "/web/demand-predictor/_next/static/chunks/remoteEntry.js",
+      "name": "Demand Predictor",
+      "description": "Demand Predictor",
+      "appSlug": "demandpredictor",
+      "width": 960,
+      "height": 1070,
+      "defaultWidth": 300,
+      "defaultHeight": 300,
+      "display_name": "DemandPredictor",
+      "preview_url": "/icons/demand-predictor.svg",
+      "inputHandlers": [
+        {
+          "id": "demand-predictor-input",
+          "name": "Demand Predictor Input",
+          "description": "Demand Predictor Input",
+          "type": [
+            "*"
+          ]
+        }
+      ],
+      "outputHandlers": [
+        {
+          "id": "demand-predictor-output",
+          "name": "Demand Predictor Output",
+          "description": "Demand Predictor Output",
+          "type": "Object"
+        }
+      ]
+    },
+    {
+      "id": "case-study-finder",
+      "agentUrl": "",
+      "widgetUrl": "/miniapp/csf/_next/static/chunks/remoteEntry.js",
+      "name": "Case Study Finder",
+      "description": "Use AI to find case studies.",
+      "appSlug": "csf",
+      "width": 780,
+      "height": 1020,
+      "defaultWidth": 300,
+      "defaultHeight": 300,
+      "display_name": "CaseStudyFinder",
+      "preview_url": "/images/case-study.png",
+      "inputHandlers": [
+        {
+          "id": "csf-input",
+          "name": "Case Study Finder Input",
+          "description": "Case Study Finder Input",
+          "type": [
+            "*"
+          ]
+        }
+      ],
+      "outputHandlers": [
+        {
+          "id": "csf-output",
+          "name": "Case Study Finder Output",
+          "description": "Case Study Finder Output",
+          "type": "Object"
+        }
+      ]
+    }
+]

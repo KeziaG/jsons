@@ -1,0 +1,102 @@
+[
+    {
+    "id": "always-on-growth-audience",
+    "agentUrl": "",
+    "widgetUrl": "/web/aga/_next/static/chunks/remoteEntry.js",
+    "name": "Always on Growth Audience",
+    "description": "Always on Growth Audience",
+    "appSlug": "aga",
+    "width": 960,
+    "height": 1070,
+    "defaultWidth": 300,
+    "defaultHeight": 300,
+    "display_name": "AGA",
+    "preview_url": "/icons/audience-builder.svg",
+    "inputHandlers": [
+      {
+        "id": "aga-input",
+        "name": "AGA Input",
+        "description": "AGA Input",
+        "type": [
+          "*"
+        ]
+      }
+    ],
+    "outputHandlers": [
+      {
+        "id": "aga-output",
+        "name": "AGA Output",
+        "description": "AGA Output",
+        "type": "Object"
+      }
+    ]
+  },
+  {
+    "id": "x1",
+    "agentUrl": "",
+    "name": "X1",
+    "description": "X1 App",
+    "appSlug": "x1",
+    "width": 767,
+    "height": 505,
+    "defaultWidth": 1000,
+    "defaultHeight": 900,
+    "display_name": "X1",
+    "preview_url": "/icons/audience-builder.svg",
+    "version": 2,
+    "widget_url": "/web/x1/widget",
+    "miniapp_url": "/web/x1",
+    "inputHandlers": [
+      {
+        "id": "x1-input",
+        "name": "X1 Input",
+        "description": "X1 Input",
+        "type": [
+          "*"
+        ]
+      }
+    ],
+    "outputHandlers": [
+      {
+        "id": "x1-output",
+        "name": "X1 Output",
+        "description": "X1 Output",
+        "type": "Object"
+      }
+    ]
+  },
+  {
+    "id": "core-ai-whats-real",
+    "agentUrl": "",
+    "name": "Core AI: What's Real",
+    "description": "Core AI: What's Real",
+    "appSlug": "coreai-status",
+    "width": 600,
+    "height": 600,
+    "defaultHeight": 1000,
+    "defaultWidth": 300,
+    "display_name": "Core AI: What's Real",
+    "preview_url": "/icons/audience-builder.svg",
+    "version": 2,
+    "widget_url": "/web/coreai-status",
+    "miniapp_url": "/web/coreai-status",
+    "inputHandlers": [
+      {
+        "id": "x1-input",
+        "name": "X1 Input",
+        "description": "X1 Input",
+        "type": [
+          "*"
+        ]
+      }
+    ],
+    "outputHandlers": [
+      {
+        "id": "x1-output",
+        "name": "X1 Output",
+        "description": "X1 Output",
+        "type": "Object"
+      }
+    ]
+  }
+]
