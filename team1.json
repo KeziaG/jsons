@@ -2,7 +2,7 @@
     {
     "id": "always-on-growth-audience",
     "agentUrl": "",
-    "widgetUrl": "/web/aga/_next/static/chunks/remoteEntry.js",
+    "block_url": "/web/aga/_next/static/chunks/remoteEntry.js",
     "name": "Always on Growth Audience",
     "description": "Always on Growth Audience",
     "appSlug": "aga",
@@ -44,7 +44,7 @@
     "display_name": "X1",
     "preview_url": "/icons/audience-builder.svg",
     "version": 2,
-    "widget_url": "/web/x1/widget",
+    "block_url": "/web/x1/widget",
     "miniapp_url": "/web/x1",
     "inputHandlers": [
       {
@@ -78,7 +78,7 @@
     "display_name": "Core AI: What's Real",
     "preview_url": "/icons/audience-builder.svg",
     "version": 2,
-    "widget_url": "/web/coreai-status",
+    "block_url": "/web/coreai-status",
     "miniapp_url": "/web/coreai-status",
     "inputHandlers": [
       {
