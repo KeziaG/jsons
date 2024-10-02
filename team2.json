@@ -2,7 +2,7 @@
     {
       "id": "bid-optimizer",
       "agentUrl": "",
-      "widgetUrl": "/_next/static/chunks/remoteEntry.js",
+      "block_url": "/_next/static/chunks/remoteEntry.js",
       "name": "Bid Optimizer",
       "description": "BidOptimizer",
       "appSlug": "bidoptimizer",
@@ -34,7 +34,7 @@
     {
       "id": "demand-predictor",
       "agentUrl": "",
-      "widgetUrl": "/web/demand-predictor/_next/static/chunks/remoteEntry.js",
+      "block_url": "/web/demand-predictor/_next/static/chunks/remoteEntry.js",
       "name": "Demand Predictor",
       "description": "Demand Predictor",
       "appSlug": "demandpredictor",
@@ -66,7 +66,7 @@
     {
       "id": "case-study-finder",
       "agentUrl": "",
-      "widgetUrl": "/miniapp/csf/_next/static/chunks/remoteEntry.js",
+      "block_url": "/miniapp/csf/_next/static/chunks/remoteEntry.js",
       "name": "Case Study Finder",
       "description": "Use AI to find case studies.",
       "appSlug": "csf",
